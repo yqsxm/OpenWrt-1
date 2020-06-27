@@ -10,10 +10,10 @@
 name: OpenWrt-yqs
 
 on:
-  schedule:
-    - cron: 0 20 * * *
-  release:
-    types: [published]
+  push:
+    branches:
+  # release:
+  # types: [published]
 
 jobs:
 
